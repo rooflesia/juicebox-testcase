@@ -37,3 +37,6 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
     ```bash
    npm run dev
 
+## Problem
+
+Ada satu masalah pada projek ini yaitu aset terkait Lotte Animation dimana tekstur tidak sesuai dengan figma, alhasil hanya menampilkan animasi berwarna ungu tanpa tekstur gambar. 
