@@ -30,8 +30,9 @@ export default function Step2() {
       id: 0,
       content: (
         <h1 className={styles.slideTitle}>
-          You’ll get insights into current industry sentiments and a reality check
-          about technology in a few minutes. Deal? Great!
+          Professionals around the world shared how they feel about technology
+          and I’ve listened. Now it’s your turn.
+         
         </h1>
       ),
     },
@@ -48,8 +49,8 @@ export default function Step2() {
       id: 2,
       content: (
         <h1 className={styles.slideTitle}>
-          Professionals around the world shared how they feel about technology
-          and I’ve listened. Now it’s your turn.
+           You’ll get insights into current industry sentiments and a reality check
+           about technology in a few minutes. Deal? Great!
         </h1>
       ),
     },
@@ -63,13 +64,15 @@ export default function Step2() {
     }
     requestAnimationFrame(raf);
 
-    const lottieEl = document.getElementById('lottieStep2');
-    if (lottieEl) {
-      gsap.fromTo(
-        lottieEl,
-        { scale: 1 },
-        { scale: 0.7, duration: 1, ease: 'power2.out' }
-      );
+    if (typeof document !== 'undefined') {
+      const lottieEl = document.getElementById('lottieStep2');
+      if (lottieEl) {
+        gsap.fromTo(
+          lottieEl,
+          { scale: 1 },
+          { scale: 0.7, duration: 1, ease: 'power2.out' }
+        );
+      }
     }
   }, []);
 

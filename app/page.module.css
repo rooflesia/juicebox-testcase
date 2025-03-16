@@ -9,10 +9,13 @@
   .lottieBg {
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     right: 10%;
     bottom: 20%;
     z-index: 1;
+    width: 100%;
+    max-width: 600px;
   }
   
   .floatingText {

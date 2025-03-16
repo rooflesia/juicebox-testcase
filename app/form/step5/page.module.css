@@ -7,10 +7,20 @@
   color: #fff;
 }
 
+.lottieWrapper {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+}
+
 .finalContainer {
   position: relative;
   z-index: 2;
-  margin-top: 30%;
+  margin-top: 320px;
   padding: 0 5%;
   text-align: center;
   padding-bottom: 5rem; 
