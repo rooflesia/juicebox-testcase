@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Juicebox Frontend Developer Assessment
 
-## Getting Started
+Proyek ini merupakan hasil pengerjaan untuk Juicebox Frontend Developer Assessment. Aplikasi ini dibuat menggunakan Next.js dan mengintegrasikan berbagai teknologi seperti GSAP, Lottie, dan Swiper.js guna menghasilkan animasi dan transisi yang smooth. Fokus utama proyek ini adalah pada implementasi desain pixel-perfect, aksesibilitas, dan penggunaan komponen yang dapat digunakan kembali.
 
-First, run the development server:
+## Fitur Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Homepage (Step 1)**
+   - Menampilkan Lottie animation dengan animasi GSAP dan smooth scrolling menggunakan Lenis.
+   - Terdapat tombol yang mengarahkan ke form/multistep form.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Walkthrough Tutorial Screens (Step 2)**
+   - Tutorial yang dibangun menggunakan Swiper.js dengan transisi slide.
+   - Pada slide terakhir, tombol berubah menjadi "Get started" untuk lanjut ke step selanjunnya.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. **Multistep Form (Step 3)**
+   - Form yang mengumpulkan data pengguna seperti **First Name** dan **Email Address**.
+   - Input form menggunakan komponen `TextInputWithButton` yang mendukung validasi; tombol akan disable dan menampilkan ikon panah ke atas (warna putih) saat input belum valid, dan berubah menjadi aktif dengan ikon panah ke kanan (warna hitam) jika valid.
+   - Transisi antar sub-step form (pertama mengisi First Name, lalu Email).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Results Page (Step 5)**
+   - Menampilkan ringkasan data input pengguna.
 
-## Learn More
+## Instalasi
 
-To learn more about Next.js, take a look at the following resources:
+Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone Repository**
+   ```bash
+   git clone <URL_REPOSITORY>
+   cd <NAMA_FOLDER_PROYEK>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install Dependencies**
+    ```bash
+   npm install
 
-## Deploy on Vercel
+3. **Jalankan Development Server**
+    ```bash
+   npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
