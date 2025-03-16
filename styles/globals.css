@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-primary);
+  }
+  
+  button {
+    font-family: inherit;
+  }
+
+  .hero {
+    width: 100%;
+    flex: 1;
+    margin: auto;
+    align-items: center;
+  }

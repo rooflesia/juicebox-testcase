@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/177dfc527bd44fad48eb07c66fb3cc41.woff2') format('woff2'),
+         url('/fonts/177dfc527bd44fad48eb07c66fb3cc41.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bagoss';
+    src: url('/fonts/BagossTRIALVF.tff') format('tff');
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  @font-face {
+    font-family: 'Sohne';
+    src: url('/fonts/Sohne/Sohne-Buch.otf') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    line-height: 135%;
+    font-size: 16px;
+  }
+  
+  :root {
+    --color-background: #0f0f0f;
+    --color-text: #f0f0f0;
+    --color-text-secondary: #0C0D10;
+    --color-primary: #CDAAFF;
+    --color-secondary: #ffffff;
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --font-primary: 'Sohne';
+    --font-secondary: 'Bagoss';
+  }
+  

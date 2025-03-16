@@ -1,0 +1,87 @@
+.heroContainer {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000 80%);
+  color: #fff;
+}
+
+.animatedShape {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 2rem;
+  background: radial-gradient(circle, #9364ff, #000);
+  border-radius: 16px;
+}
+
+/* Judul slide */
+.slideTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 0 2%;
+  color: blue; 
+  transition: color 0.5s ease;
+}
+
+.slideActive .slideTitle {
+  color: #fff;
+}
+
+.dotContainer {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #444;
+  display: inline-block;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.activeDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #6a00ff;
+  display: inline-block;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+/* Tombol di bawah */
+.heroContent {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 3;
+  width: 90%;
+  max-width: 400px;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+
+.swiper-pagination-bullet {
+  background: #444 !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #6a00ff !important;
+}

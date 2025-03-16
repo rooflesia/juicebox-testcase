@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 9999px;
+    padding: 12px;
+    color: #fff;
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .input::placeholder {
+    color: #999;
+  }
+  
+  .buttonDisabled {
+    background-color: transparent;
+    border: none;
+    cursor: default;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+  }
+  
+  .buttonEnabled {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    padding: 0.3rem;
+  }
+  
+  .iconUp {
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .iconRight {
+    color: #000;
+    font-size: 1rem;
+  }
+  
