@@ -26,8 +26,8 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
 
 1. **Clone Repository**
    ```bash
-   git clone <URL_REPOSITORY>
-   cd <NAMA_FOLDER_PROYEK>
+   git clone https://github.com/rooflesia/juicebox-testcase.git
+   cd juicebox-testcase
 
 2. **Install Dependencies**
     ```bash
